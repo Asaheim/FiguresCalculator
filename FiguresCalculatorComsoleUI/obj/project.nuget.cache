@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "JRGNHHvQJEz2/1OMSTFAeV1RO/RQ0/TPv9X6nYFvYEyA0v0UjMHuKJcaBznj8cc50003h76iWl83h2QtSKhwrA==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\FiguresCalculator\\FiguresCalculatorComsoleUI\\FiguresCalculatorConsoleUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asaheim\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Asaheim\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Asaheim\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Asaheim\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

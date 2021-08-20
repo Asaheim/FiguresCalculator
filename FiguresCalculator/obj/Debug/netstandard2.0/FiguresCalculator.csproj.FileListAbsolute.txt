@@ -1,0 +1,9 @@
+D:\projects\FiguresCalculator\FiguresCalculator\bin\Debug\netstandard2.0\FiguresCalculator.deps.json
+D:\projects\FiguresCalculator\FiguresCalculator\bin\Debug\netstandard2.0\FiguresCalculator.dll
+D:\projects\FiguresCalculator\FiguresCalculator\obj\Debug\netstandard2.0\FiguresCalculator.csprojAssemblyReference.cache
+D:\projects\FiguresCalculator\FiguresCalculator\obj\Debug\netstandard2.0\FiguresCalculator.AssemblyInfoInputs.cache
+D:\projects\FiguresCalculator\FiguresCalculator\obj\Debug\netstandard2.0\FiguresCalculator.AssemblyInfo.cs
+D:\projects\FiguresCalculator\FiguresCalculator\bin\Debug\netstandard2.0\FiguresCalculator.pdb
+D:\projects\FiguresCalculator\FiguresCalculator\obj\Debug\netstandard2.0\FiguresCalculator.csproj.CoreCompileInputs.cache
+D:\projects\FiguresCalculator\FiguresCalculator\obj\Debug\netstandard2.0\FiguresCalculator.dll
+D:\projects\FiguresCalculator\FiguresCalculator\obj\Debug\netstandard2.0\FiguresCalculator.pdb
