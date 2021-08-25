@@ -20,6 +20,17 @@ namespace FiguresCalculator
             { }
         }
 
+        public FigureCalculator(FiguresTypes figuresType, List<double> sideLengthes)
+        {
+            try
+            {
+                this.figureType = figuresType;
+                SetFigure(sideLengthes);
+            }
+            catch (Exception e)
+            { }
+        }
+
         private void SetFigure(List<double> sideLengthes)
         {
             switch (figureType)

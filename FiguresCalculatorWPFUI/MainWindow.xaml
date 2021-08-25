@@ -1,0 +1,70 @@
+﻿<Window x:Class="FiguresCalculatorWPFUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FiguresCalculatorWPFUI"
+        mc:Ignorable="d"
+        Title="Figure Calculator" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Label x:Name="lbSelectFigure" Content="Please select Figure type:"/>
+            <RadioButton x:Name="rbCircle" GroupName="Figures" Content="Circle" Checked="RbFigure_Checked"/>
+            <RadioButton x:Name="rbEllipse" GroupName="Figures" Content="Ellipse" Checked="RbFigure_Checked"/>
+            <RadioButton x:Name="rbTriangle" GroupName="Figures" Content="Triangle" Checked="RbFigure_Checked"/>
+            <RadioButton x:Name="rbSquare" GroupName="Figures" Content="Square" Checked="RbFigure_Checked"/>
+            <RadioButton x:Name="rbRectangle" GroupName="Figures" Content="Rectangle" Checked="RbFigure_Checked"/>
+            <RadioButton x:Name="rbParallelogram" GroupName="Figures" Content="Parallelogram" Checked="RbFigure_Checked"/>
+            <RadioButton x:Name="rbTrapezoid" GroupName="Figures" Content="Trapezoid" Checked="RbFigure_Checked"/>
+        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" ></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lbWaitingFigure" Content="Waiting for figure" Grid.Row="0" Grid.Column="0"/>
+            <Label x:Name="lbEnterSizeA" Content="Size A" Grid.Row="0" Grid.Column="0" Visibility="Collapsed"/>
+            <TextBox x:Name="tbSizeA" VerticalAlignment="Center" TextWrapping="Wrap" Width="120" Height="18" Grid.Row="0" Grid.Column="1" PreviewTextInput="NumberValidationTextBox" Visibility="Collapsed"/>
+            <Label x:Name="lbEnterSizeB" Content="Enter Size B" Grid.Row="1" Grid.Column="0" Visibility="Collapsed"/>
+            <TextBox x:Name="tbSizeB" VerticalAlignment="Center" TextWrapping="Wrap" Width="120" Height="18" Grid.Row="1" Grid.Column="1" PreviewTextInput="NumberValidationTextBox" Visibility="Collapsed"/>
+            <Label x:Name="lbEnterSizeC" Content="Size C" Grid.Row="2" Grid.Column="0" Visibility="Collapsed"/>
+            <TextBox x:Name="tbSizeC" VerticalAlignment="Center" TextWrapping="Wrap" Width="120" Height="18" Grid.Row="2" Grid.Column="1" PreviewTextInput="NumberValidationTextBox" Visibility="Collapsed"/>
+            <Label x:Name="lbEnterSizeD" Content="Size D" Grid.Row="3" Grid.Column="0" Visibility="Collapsed"/>
+            <TextBox x:Name="tbSizeD" VerticalAlignment="Center" TextWrapping="Wrap" Width="120" Height="18" Grid.Row="3" Grid.Column="1" PreviewTextInput="NumberValidationTextBox" Visibility="Collapsed"/>
+            <Label x:Name="lbEnterSizeH" Content="Height" Grid.Row="4" Grid.Column="0" Visibility="Collapsed"/>
+            <TextBox x:Name="tbSizeH" VerticalAlignment="Center" TextWrapping="Wrap" Width="120" Height="18" Grid.Row="4" Grid.Column="1" PreviewTextInput="NumberValidationTextBox" Visibility="Collapsed"/>
+            <Button x:Name="btnCalculate" Content="Calculate" HorizontalAlignment="Right" Grid.Row="5" Grid.Column="1" VerticalAlignment="Top" Visibility="Collapsed" Click="btnCalculate_Click"/>
+        </Grid>
+
+        <Grid x:Name="grdResults" Grid.Row="2" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" ></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lbResults" Content="Results:" Grid.Row="0" Grid.Column="0"/>
+            <Label x:Name="lbArea" Content="Area" Grid.Row="1" Grid.Column="0"/>
+            <TextBox x:Name="tbArea" VerticalAlignment="Center" TextWrapping="Wrap" Width="120" Height="18" Grid.Row="1" Grid.Column="1" IsReadOnly="True"/>
+            <Label x:Name="lbPerimeter" Content="Perimeter" Grid.Row="2" Grid.Column="0"/>
+            <TextBox x:Name="tbPerimeter" VerticalAlignment="Center" TextWrapping="Wrap" Width="120" Height="18" Grid.Row="2" Grid.Column="1" IsReadOnly="True"/>
+            
+        </Grid>
+    </Grid>
+</Window>

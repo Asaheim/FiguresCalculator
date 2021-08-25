@@ -1,0 +1,22 @@
+﻿<Window x:Class="FiguresCalculatorWPFUI.FigureChoiseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FiguresCalculatorWPFUI"
+        mc:Ignorable="d"
+        Title="FigureChoiseWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label x:Name="lbSelectFigure" Content="Please select Figure type"/>
+            <RadioButton x:Name="rbCircle" Content="1. Circle"/>
+            <RadioButton x:Name="rbEllipse" Content="2. Ellipse"/>
+            <RadioButton x:Name="rbTriangle" Content="3. Triangle"/>
+            <RadioButton x:Name="rbSquare" Content="4. Square"/>
+            <RadioButton x:Name="rbRectangle" Content="5. Rectangle"/>
+            <RadioButton x:Name="rbParallelogram" Content="6. Parallelogram"/>
+            <RadioButton x:Name="rbTrapezoid" Content="7. Trapezoid"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
