@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9PJnBNW3LlRIqSoAgMNHQmYruZBr0TN3jF1Z4jdKWL077qG9SNVGDxdi/Bb5V9RuORP2NHBBqO+Y0IbqKjCldw==",
+  "dgSpecHash": "rMeJIyVz2PRFYaOhMq7jIBY8sqojjRmHoQVXnV/PEk1f4R75+C51P4goqjv34a422FeoPG7n+06iyiyJgtjngQ==",
   "success": true,
-  "projectFilePath": "D:\\projects\\FiguresCalculator\\FiguresCalculatorTests\\FiguresCalculatorTests.csproj",
+  "projectFilePath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculatorTests\\FiguresCalculatorTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asaheim\\.nuget\\packages\\microsoft.codecoverage\\16.4.0\\microsoft.codecoverage.16.4.0.nupkg.sha512",
     "C:\\Users\\Asaheim\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

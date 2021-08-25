@@ -4653,11 +4653,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\FiguresCalculator\\FiguresCalculatorTests\\FiguresCalculatorTests.csproj",
+      "projectUniqueName": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculatorTests\\FiguresCalculatorTests.csproj",
       "projectName": "FiguresCalculatorTests",
-      "projectPath": "D:\\projects\\FiguresCalculator\\FiguresCalculatorTests\\FiguresCalculatorTests.csproj",
+      "projectPath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculatorTests\\FiguresCalculatorTests.csproj",
       "packagesPath": "C:\\Users\\Asaheim\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\FiguresCalculator\\FiguresCalculatorTests\\obj\\",
+      "outputPath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculatorTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -4677,8 +4677,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj": {
-              "projectPath": "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj"
+            "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj": {
+              "projectPath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj"
             }
           }
         }

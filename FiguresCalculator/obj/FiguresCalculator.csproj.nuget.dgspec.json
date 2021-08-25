@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj": {}
+    "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj": {}
   },
   "projects": {
-    "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj": {
+    "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj",
+        "projectUniqueName": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj",
         "projectName": "FiguresCalculator",
-        "projectPath": "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj",
+        "projectPath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj",
         "packagesPath": "C:\\Users\\Asaheim\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\FiguresCalculator\\FiguresCalculator\\obj\\",
+        "outputPath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VQqatHk+s5zVUH3a6wJ3JiIayDa4QASlzzbKw6WXe1vIYsgAehLszPSDfZ0L39oq5NJPdqAESJdMN8m/8QG/7A==",
+  "dgSpecHash": "4ZA/JKAFOWCWJ5xC2KFL6Jjt9UusPU1VzNpDq/G7O+ulZ4mmSixML/XYKtd3Q/H1dHdEzHY0IUNfxKgWlZ4EIw==",
   "success": true,
-  "projectFilePath": "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj",
+  "projectFilePath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asaheim\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Asaheim\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

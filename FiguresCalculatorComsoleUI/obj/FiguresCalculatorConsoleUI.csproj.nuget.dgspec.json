@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\FiguresCalculator\\FiguresCalculatorComsoleUI\\FiguresCalculatorConsoleUI.csproj": {}
+    "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculatorComsoleUI\\FiguresCalculatorConsoleUI.csproj": {}
   },
   "projects": {
-    "D:\\projects\\FiguresCalculator\\FiguresCalculatorComsoleUI\\FiguresCalculatorConsoleUI.csproj": {
+    "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculatorComsoleUI\\FiguresCalculatorConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\FiguresCalculator\\FiguresCalculatorComsoleUI\\FiguresCalculatorConsoleUI.csproj",
+        "projectUniqueName": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculatorComsoleUI\\FiguresCalculatorConsoleUI.csproj",
         "projectName": "FiguresCalculatorConsoleUI",
-        "projectPath": "D:\\projects\\FiguresCalculator\\FiguresCalculatorComsoleUI\\FiguresCalculatorConsoleUI.csproj",
+        "projectPath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculatorComsoleUI\\FiguresCalculatorConsoleUI.csproj",
         "packagesPath": "C:\\Users\\Asaheim\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\FiguresCalculator\\FiguresCalculatorComsoleUI\\obj\\",
+        "outputPath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculatorComsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj": {
-                "projectPath": "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj"
+              "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj": {
+                "projectPath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj": {
+    "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj",
+        "projectUniqueName": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj",
         "projectName": "FiguresCalculator",
-        "projectPath": "D:\\projects\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj",
+        "projectPath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\FiguresCalculator.csproj",
         "packagesPath": "C:\\Users\\Asaheim\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\FiguresCalculator\\FiguresCalculator\\obj\\",
+        "outputPath": "D:\\projects\\git\\FigureCalculator\\FiguresCalculator\\FiguresCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
