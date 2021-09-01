@@ -1,4 +1,5 @@
-﻿using FiguresCalculator.Figures;
+﻿using FiguresCalculator.Enum;
+using FiguresCalculator.Figures;
 using System;
 using System.Collections.Generic;
 

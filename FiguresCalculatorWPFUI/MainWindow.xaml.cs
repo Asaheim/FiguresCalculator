@@ -14,6 +14,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using FiguresCalculator;
+using FiguresCalculator.Enum;
+using FiguresCalculatorWPFUI.Models;
 
 namespace FiguresCalculatorWPFUI
 {
@@ -23,9 +25,13 @@ namespace FiguresCalculatorWPFUI
     public partial class MainWindow : Window
     {
         private FiguresTypes figuresType;
+        private FigureModel Figure;
+
         public MainWindow()
         {
             InitializeComponent();
+            Figure = new FigureModel();
+            this.DataContext = Figure;
         }
 
         private void RbFigure_Checked(object sender, RoutedEventArgs e)
@@ -111,36 +117,36 @@ namespace FiguresCalculatorWPFUI
             switch (figuresType)
             {
                 case FiguresTypes.Circle:                   
-                    sideLengthes.Add(Convert.ToDouble(tbSizeA.Text));
+                    sideLengthes.Add(Figure.LengthA);
                     break;
                 case FiguresTypes.Ellipse:                    
-                    sideLengthes.Add(Convert.ToDouble(tbSizeA.Text));
-                    sideLengthes.Add(Convert.ToDouble(tbSizeB.Text));
+                    sideLengthes.Add(Figure.LengthA);
+                    sideLengthes.Add(Figure.LengthB);
                     break;
                 case FiguresTypes.Triangle:
-                    sideLengthes.Add(Convert.ToDouble(tbSizeA.Text));
-                    sideLengthes.Add(Convert.ToDouble(tbSizeB.Text));
-                    sideLengthes.Add(Convert.ToDouble(tbSizeC.Text));
+                    sideLengthes.Add(Figure.LengthA);
+                    sideLengthes.Add(Figure.LengthB);
+                    sideLengthes.Add(Figure.LengthC);
                     break;
                 case FiguresTypes.Square:
-                    sideLengthes.Add(Convert.ToDouble(tbSizeA.Text));
-                    sideLengthes.Add(Convert.ToDouble(tbSizeB.Text));
+                    sideLengthes.Add(Figure.LengthA);
+                    sideLengthes.Add(Figure.LengthB);
                     break;
                 case FiguresTypes.Rectangle:
-                    sideLengthes.Add(Convert.ToDouble(tbSizeA.Text));
-                    sideLengthes.Add(Convert.ToDouble(tbSizeB.Text));
+                    sideLengthes.Add(Figure.LengthA);
+                    sideLengthes.Add(Figure.LengthB);
                     break;
                 case FiguresTypes.Parallelogram:
-                    sideLengthes.Add(Convert.ToDouble(tbSizeA.Text));
-                    sideLengthes.Add(Convert.ToDouble(tbSizeB.Text));
-                    sideLengthes.Add(Convert.ToDouble(tbSizeH.Text));
+                    sideLengthes.Add(Figure.LengthA);
+                    sideLengthes.Add(Figure.LengthB);
+                    sideLengthes.Add(Figure.Height);
                     break;
                 case FiguresTypes.Trapezoid:
-                    sideLengthes.Add(Convert.ToDouble(tbSizeA.Text));
-                    sideLengthes.Add(Convert.ToDouble(tbSizeB.Text));
-                    sideLengthes.Add(Convert.ToDouble(tbSizeC.Text));
-                    sideLengthes.Add(Convert.ToDouble(tbSizeD.Text));
-                    sideLengthes.Add(Convert.ToDouble(tbSizeH.Text));
+                    sideLengthes.Add(Figure.LengthA);
+                    sideLengthes.Add(Figure.LengthB);
+                    sideLengthes.Add(Figure.LengthC);
+                    sideLengthes.Add(Figure.LengthD);
+                    sideLengthes.Add(Figure.Height);
                     break;
                 default:
                     lbWaitingFigure.Visibility = Visibility.Visible;
@@ -148,8 +154,8 @@ namespace FiguresCalculatorWPFUI
                     break;
             }
             FigureCalculator figuresCalculator = new FigureCalculator(figuresType, sideLengthes);
-            tbPerimeter.Text = figuresCalculator.CalculatePerimeter().ToString();
-            tbArea.Text = figuresCalculator.CalculateArea().ToString();
+            Figure.Perimeter = figuresCalculator.CalculatePerimeter();
+            Figure.Area = figuresCalculator.CalculateArea();
         }
 
         private void Clean()
@@ -165,18 +171,12 @@ namespace FiguresCalculatorWPFUI
             lbEnterSizeD.Content = "Size D";
             lbEnterSizeH.Visibility = Visibility.Collapsed;
             tbSizeA.Visibility = Visibility.Collapsed;
-            tbSizeA.Text = "";
             tbSizeB.Visibility = Visibility.Collapsed;
-            tbSizeB.Text = "";
             tbSizeC.Visibility = Visibility.Collapsed;
-            tbSizeC.Text = "";
             tbSizeD.Visibility = Visibility.Collapsed;
-            tbSizeD.Text = "";
             tbSizeH.Visibility = Visibility.Collapsed;
-            tbSizeH.Text = "";
             grdResults.Visibility = Visibility.Collapsed;
-            tbArea.Text = "";
-            tbPerimeter.Text = "";
+            Figure.Clean();
         }
         private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
         {
