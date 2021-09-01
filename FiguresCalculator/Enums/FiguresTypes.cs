@@ -1,4 +1,4 @@
-﻿enum FiguresTypes
+﻿public enum FiguresTypes
 {
     Circle = 1,
     Ellipse = 2,
